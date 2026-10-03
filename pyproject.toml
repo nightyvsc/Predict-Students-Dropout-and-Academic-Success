@@ -1,0 +1,23 @@
+[project]
+name = "predict-students-dropout-and-academic-success"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nightyvsc", email = "juanmadi2006@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.10.0",
+    "pandas>=3.0.0",
+    "scikit-learn>=1.9.1",
+    "ucimlrepo>=0.0.7",
+]
+
+[project.scripts]
+predict-students-dropout-and-academic-success = "predict_students_dropout_and_academic_success:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"

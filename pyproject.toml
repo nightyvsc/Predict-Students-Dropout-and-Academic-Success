@@ -1,7 +1,7 @@
 [project]
 name = "predict-students-dropout-and-academic-success"
 version = "0.1.0"
-description = "Add your description here"
+description = "Reproducible comparison of decision tree and SVM models for student outcomes"
 readme = "README.md"
 authors = [
     { name = "nightyvsc", email = "juanmadi2006@gmail.com" }
